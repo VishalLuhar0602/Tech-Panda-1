@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  top: 0px;
+  position: fixed;
+  z-index: 10;
+  justify-content: space-between;
+  height: 90px;
+  margin-right: 100px;
+}
+.logo-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.techapanda {
+  text-decoration: none;
+  color: white;
+}
+.disheshHeading {
+  text-decoration: none;
+  color: green;
+}
+.disheshHeading h2 {
+  padding-bottom: 20px;
+}
+
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+/* navigation bar : logo and items */
+#logo {
+  margin: 10px 34px;
+}
+#logo img {
+  height: 50px;
+  margin: 3px 6px;
+}
+/* navigation bar : list styling */
+#navbar ul {
+  display: flex;
+  font-family: "Baloo Bhai", cursive;
+}
+#navbar ul li {
+  list-style: none;
+  font-size: 1.3rem;
+}
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
+}
+
+.nav-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container-main{
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin-top: 20px;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-top: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.heading {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.info button {
+  height: 40px;
+  width: 90px;
+  background-color: rgb(62, 245, 62);
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.main-name {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: rgb(255, 166, 0);
+  height: 50px;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.main-first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-img img {
+  width: 100px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  margin: auto;
+  padding: 34px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+
+footer .question {
+  padding: 34px 0;
+}
+
